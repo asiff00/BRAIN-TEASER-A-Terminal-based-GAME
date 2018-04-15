@@ -44,19 +44,19 @@ int sign(void){
 void promt(int score,int total){
     sleep(1);
     cout<<setfill(' ')<<setw(12)<<"G ";
-    sleep(.9);
+    sleep(.1);
     cout<<"A ";
-    sleep(.9);
+    sleep(.1);
     cout<<"M ";
-    sleep(.9);
+    sleep(.1);
     cout<<"E ";
-    sleep(.9);
+    sleep(.1);
     cout<<"  O ";
-    sleep(.9);
+    sleep(.1);
     cout<<"V ";
-    sleep(.9);
+    sleep(.1);
     cout<<"E ";
-    sleep(.9);
+    sleep(.1);
     cout<<"R ";
     cout<<"\n\n\n\n";
     sleep(1);
@@ -66,7 +66,6 @@ void promt(int score,int total){
     sleep(1);
 
 
-    //cout<<"Your score is: "<<score<<"\n";
 }
 
 void display(int score, int total){
@@ -75,37 +74,6 @@ void display(int score, int total){
 }
 
 
-
-//Timer
-
-/*
-void display_clock(int countdown){
-
-    system("clear");
-    cout<<setfill(' ');
-    cout<<setfill(' ')<<setw(50)<<"Timer\n";
-    cout<<setfill(' ')<<setw(44)<<countdown<<"\n";
-
-}
-
-int timer(){
-
-    countdown=10;
-
-
-    while(countdown>=0||!(cin>>user_answer)){
-
-        display_clock(countdown);
-        sleep(1);
-        countdown--;
-    }
-    return countdown;
-
-}
-
-
-
-*/
 
 int main(){
 
